@@ -20,7 +20,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 model_0 = model_builder.CNN()
 
 ## Evalute
-model_path = "trained_model\CNN_Model_(1).pth"  #   uncomment for mac"HandWrittenNumberClassifier/trained_model/Trained_Cnn_model(2).pth"
+model_path = "HandWrittenNumberClassifier/trained_model/Trained_Cnn_model(2).pth"  
 model = model_0.to(device)  # Replace with your model class
 model.load_state_dict(torch.load(model_path, map_location=device)) #Load pre-trained weights
 
