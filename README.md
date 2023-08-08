@@ -7,11 +7,11 @@
 <p>Here Pytorch and OpenCV are the main packages used. Pytorch is used to make CNN Model and OpenCV is used to capture the Video</p>
 
 <h2>How Does it do ?</h2>
-<ul><li>First the the video frames is changed to 28 x 28 pixels</li>
-    <li>Then it's changes into Grayscale</li>
-    <li>Then it's converts the Grayscale image into Binary Image</li>
-    <li>And some pre-image processing at the end (Flooding)</li>
-    <li>Then its feed into CNN Model</li>
+<ul><ol> The video frames is changed to 28 x 28 pixels</ol>
+    <ol> The video frames are converted into  Grayscale image</ol>
+    <li>The Grayscale image is converted to Binary Image</ol>
+    <ol>And some pre-image processing at the end (Flooding)</ol>
+    <ol>Finally its feed into CNN Model and predicts it</ol>
 </ul>
 
 <h2> Basic Overview of Model</h2>
