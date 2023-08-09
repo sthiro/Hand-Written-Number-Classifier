@@ -18,7 +18,7 @@
 
 ![representing paper image](https://github.com/sthiro/HandWrittenNumberClassifier/assets/49124307/778dda8b-c1cf-4c58-a7ab-2e6b4f3aebb1)
 
-<h1>Shoud I need to train ?</h1>
+<h2>Shoud I need to train ?</h2>
 <p>No need to train again, The model has trained so well already, a trained file is given there.</p>
 
 <h4> By - S.Thiroshan</h4>
